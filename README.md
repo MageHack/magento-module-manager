@@ -12,5 +12,7 @@ What exists?
 * Module model and collection, gathers info ftom app/etc/modules/* files and core_resource table, without relying on Magento's config parsing and merging
 * Adminhtml grid view of modules
 
-So, basically the information is there, now the main work is building the UI
+So, basically the information is there, now the main work is building the UI.
+
+This is a little project I am doing on my own because I couldn't stay at the MageHack location, but I still wanted to contribute something.
 
