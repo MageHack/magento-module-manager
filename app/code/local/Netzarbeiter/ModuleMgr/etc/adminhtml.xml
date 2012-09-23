@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <system>
+            <children>
+                <tools>
+                    <children>
+                        <netzarbeiter_modulemgr translate="title" module="netzarbeiter_modulemgr">
+                            <title>Manage Modules</title>
+                            <action>adminhtml/netzarbeiter_modulemgr</action>
+                            <sort_order>200</sort_order>
+                        </netzarbeiter_modulemgr>
+                    </children>
+                </tools>
+            </children>
+        </system>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <tools>
+                                <children>
+                                    <netzarbeiter_modulemgr translate="title" module="netzarbeiter_modulemgr">
+                                        <title>Manage Modules</title>
+                                        <sort_order>200</sort_order>
+                                    </netzarbeiter_modulemgr>
+                                </children>
+                            </tools>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

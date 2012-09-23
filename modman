@@ -1,0 +1,7 @@
+
+
+app/etc/modules/Netzarbeiter_ModuleMgr.xml app/etc/modules/Netzarbeiter_ModuleMgr.xml
+app/code/local/Netzarbeiter/ModuleMgr app/code/local/Netzarbeiter/ModuleMgr
+app/design/adminhtml/default/default/layout/netzarbeiter/modulemgr.xml app/design/adminhtml/default/default/layout/netzarbeiter/modulemgr.xml
+
+

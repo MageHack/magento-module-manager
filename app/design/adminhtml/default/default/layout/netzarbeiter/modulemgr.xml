@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <adminhtml_netzarbeiter_modulemgr_index>
+        <reference name="content">
+            <block type="netzarbeiter_modulemgr/adminhtml_modulemgr" name="netzarbeiter_modulemgr"/>
+        </reference>
+    </adminhtml_netzarbeiter_modulemgr_index>
+
+    <adminhtml_netzarbeiter_modulemgr_view>
+        <reference name="content">
+            <block type="netzarbeiter_modulemgr/adminhtml_modulemgr_view" name="netzarbeiter_modulemgr"/>
+        </reference>
+    </adminhtml_netzarbeiter_modulemgr_view>
+</layout>

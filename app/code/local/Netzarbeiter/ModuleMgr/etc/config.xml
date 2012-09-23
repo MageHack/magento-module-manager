@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Netzarbeiter_ModuleMgr>
+            <version>0.1.0</version>
+        </Netzarbeiter_ModuleMgr>
+    </modules>
+    <global>
+        <models>
+            <netzarbeiter_modulemgr>
+                <class>Netzarbeiter_ModuleMgr_Model</class>
+                <resourceModel>netzarbeiter_modulemgr_resource</resourceModel>
+            </netzarbeiter_modulemgr>
+            <netzarbeiter_modulemgr_resource>
+                <class>Netzarbeiter_ModuleMgr_Model_Resource</class>
+            </netzarbeiter_modulemgr_resource>
+        </models>
+        <blocks>
+            <netzarbeiter_modulemgr>
+                <class>Netzarbeiter_ModuleMgr_Block</class>
+            </netzarbeiter_modulemgr>
+        </blocks>
+        <helpers>
+            <netzarbeiter_modulemgr>
+                <class>Netzarbeiter_ModuleMgr_Helper</class>
+            </netzarbeiter_modulemgr>
+        </helpers>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <netzarbeiter_modulemgr before="Mage_Adminhtml">Netzarbeiter_ModuleMgr_Adminhtml</netzarbeiter_modulemgr>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <layout>
+            <updates>
+                <netzarbeiter_modulemgr>
+                    <file>netzarbeiter/modulemgr.xml</file>
+                </netzarbeiter_modulemgr>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>
